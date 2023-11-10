@@ -1,0 +1,13 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    font-size:16px;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
