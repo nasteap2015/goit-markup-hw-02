@@ -51,7 +51,7 @@ ul{
 .navigation-links:focus{
     color: #404BBF;
 }
-,address{
+.address{
     font-style: normal;
 }
 .address-info{
@@ -61,7 +61,7 @@ ul{
     letter-spacing: 0.02em;
     font-weight: 500;
 }
-.address-info:hover
+.address-info:hover,
 .address-info:focus{
     color: #404BBF;
 }
