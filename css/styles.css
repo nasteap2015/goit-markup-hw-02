@@ -11,15 +11,20 @@ ul{
     list-style-type: none;
 }
 
-<!--Header-->
 .logo-second-part {
-    line height: 21px;
+    line height: 1,16;
+    font-size: 18px;
     text-transform:uppercase;
     color: #2e2f42;
     letter-spacing:3%;
     font-weight:bold;
 }
 .logo-first-part{
+    line height: 1,6;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3%;
+    font-weight: bold;
     color: #4D5AE5;
 }
 .logo-second-part:hover,
@@ -34,7 +39,7 @@ ul{
     color: #4D5AE5;
 }
 .navigation-links{
-    line height: 24;
+    line height: 1,5;
     font-size: 16px;
     color: #2E2F42;
     letter-spacing: 2%;
@@ -46,7 +51,7 @@ ul{
     color: #404BBF;
 }
 .address-info{
-    line height: 24;
+    line height: 1,5;
     font-size:16px;
     font-style: normal;
     color: #434455;
@@ -67,7 +72,8 @@ ul{
     font-weight: bold;
     letter-spacing: 2%;
     color: #FFFFFF;
-    line-height: 60px;
+    line-height: 1,07;
+    text-align: center;
 }   
 .first-section-button{
     background-color:#4D5AE5;
@@ -75,8 +81,114 @@ ul{
     font-size:16px;
     font-weight: medium;
     letter-spacing: 4%;
-    line-height: 24px;
+    line-height: 1,5;
+    text-align: center;
 }
 .first-section-button:hover{
     background-color:#404BBF;
+}
+.second-section-title{
+    display: none;
+}
+.second-section-list{
+    display: inline-block;
+    width: 264px;
+    height: 104px;
+}
+.second-section-list-title{
+    font-size:20px;
+    font-weight: medium;
+    letter-spacing: 2%;
+    line-height: 1,2;
+    color:#2E2F42;
+}
+.second-section-list-content{
+    font-size: 16px;
+    font-weight: regular;
+    letter-spacing: 2%;
+    line-height: 1,5;
+    color: #434455;
+}
+.third-section{
+    background-color: #F4F4FD;
+    width: 1440px;
+    height: 732px;
+}
+.third-section-title{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2%;
+    line-height: 1,11;
+    color: #2E2F42;
+    text-align: center;
+}
+.personal-card{
+    background-color: #FFFFFF;
+    width: 264px;
+    height: 380px;
+    display: inline-block;
+}
+.third-section-list-title{
+    font-size: 20px;
+    font-weight: medium;
+    letter-spacing: 2%;
+    line-height: 1,2;
+    color: #2E2F42;
+    text-align: center;
+}
+.third-section-list-content{
+    font-size: 16px;
+    font-weight: regular;
+    letter-spacing: 2%;
+    line-height: 1,5;
+    color: #434455;
+    text-align: center;
+}
+.fourth-section-title {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2%;
+    line-height: 1,11;
+    color: #2E2F42;
+    text-align: center;
+}
+.project-card{
+    border: 1px solid #E7E9FC;
+    width: 360px;
+    height: 420px;
+    display: inline-block;
+}   
+.fourth-section-list-title{
+    font-size: 20px;
+    font-weight: medium;
+    letter-spacing: 2%;
+    line-height: 1,2;
+    color: #2E2F42;
+}
+.fourth-section-list-content{
+    font-size: 16px;
+    font-weight: regular;
+    letter-spacing: 2%;
+    line-height: 1,5;
+    color: #434455;
+}
+.footer{
+    background-color: #2E2F42;
+    height: 312px;
+}
+.logo-second-part-footer {
+    line height: 1,16;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #f4f4fd;
+    letter-spacing: 3%;
+    font-weight: bold;
+}
+.footer-content{
+    font-size: 16px;
+    font-weight: regular;
+    letter-spacing: 2%;
+    line-height: 1,2;
+    color: #f4f4FD;
+    width: 264px;
 }
